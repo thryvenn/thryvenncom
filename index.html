@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thryvenn Creations — Social Hub</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(135deg, #74cb94, #d8f5e6);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      color: #1a1a1a;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 35px;
+      animation: fadeIn 0.6s ease;
+    }
+
+    .profile img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+    }
+
+    .profile h1 {
+      margin: 18px 0 6px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .profile p {
+      margin: 0;
+      font-size: 15px;
+      opacity: 0.85;
+    }
+
+    .links-container {
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      animation: fadeUp 0.7s ease;
+    }
+
+    .link-btn {
+      text-decoration: none;
+      background: white;
+      padding: 18px 22px;
+      border-radius: 16px;
+      text-align: center;
+      font-size: 19px;
+      font-weight: 600;
+      color: #1a1a1a;
+      box-shadow: 0 5px 14px rgba(0,0,0,0.12);
+      transition: transform 0.18s, box-shadow 0.18s;
+      border: 2px solid #74cb94;
+    }
+
+    .link-btn:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.20);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 12px;
+      opacity: 0.75;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <img src="https://scontent.fsig2-1.fna.fbcdn.net/v/t39.30808-6/537093408_122105820596978976_2479017593579491456_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=FwVxOoZpP6YQ7kNvwEf3VLj&_nc_oc=Adln4ExwmpDMy4sZfP5TnQnEVXjudQ1qEEQFZ5hHUH7P4RTuQCyCqMYVc_2pPGRFekw&_nc_zt=23&_nc_ht=scontent.fsig2-1.fna&_nc_gid=PHgTTI67eX6DFa5fZYrC1w&oh=00_AflkRmn8v7ZPHKAiwCOWdUTONysFKUmYehIXpKlBJJgavg&oe=6939030E" alt="Profile Picture" />
+    <h1>Thryvenn Creations</h1>
+    <p>Believe</p>
+  </div>
+
+  <div class="links-container">
+    <a class="link-btn" href="https://wa.me/19392813447">WhatsApp</a>
+    <a class="link-btn" href="https://www.instagram.com/thryvenn_creations/">Instagram</a>
+    <a class="link-btn" href="https://www.tiktok.com/@thryvenn">TikTok</a>
+    <a class="link-btn" href="https://www.facebook.com/Thryvenn">Facebook</a>
+    <a class="link-btn" href="mailto:thryvennllc@gmail.com">Email Us</a>
+    <a class="link-btn" href="tel:9392813447">Call: 939-281-3447</a>
+  </div>
+
+  <footer>© 2025 Thryvenn Creations — All rights reserved.</footer>
+</body>
+</html>
